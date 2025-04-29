@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/** box1 **/
+.nav-logo{
+    height: 48px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon-logo1.png");
+    background-size: cover;
+    height: 48px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+/** box2 **/
+.nav{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navin{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+/** box3 **/
+.nav-search{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 9px;
+}
+.nav-search:hover{
+    border: 3px solid #ff9900;
+    border-radius: 9px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 12px;
+}
+.search-input{
+    height: 38px;
+    width: 100%;
+    font-size: 0.95rem;
+    border: none;
+    border-left: 8px;
+    padding-left: 8px;
+}
+.search-icon{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ff9900;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/** box4**/
+
+span{
+    font-size: 12px;
+    margin-left: 4px;
+}
+.acc-select{
+    background-color: #0f1111;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+.acc{
+    display: flex;
+    align-items: center;
+}
+.nav-sec{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+.cart-icon{
+    font-size: 30px;
+    display: flex;
+    align-items: baseline;
+}
+/**pannel**/
+.pannel{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: border-box;
+}
+.all-button{
+    margin-left: 14px;
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.all-icon{
+    font-size: 20px;
+}
+.All{
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+.pan{
+    padding-left: 8px;
+    padding-right: 10px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.hero{
+    background-image: url("61GfWyQax7L._SX3000_.jpg");
+    background-size: cover;
+    height: 250px;
+}
+.boxes{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e7ecea;
+}
+.separator{
+    height: 20px;
+    background-color: #e7ecea;
+}
+.box{
+    height: 420px;
+    width: 312px;
+    background-color: white;
+}
+.topics{
+    width: 312px;
+    height: 30px;
+    margin-top: 20px;
+}
+.inner-1{
+    display: flex;
+}
+.inner-2{
+    display: flex;
+    margin-top: 20px;
+}
+.headset{
+    background-image: url("Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.keyboard{
+    background-image: url("Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.mouse{
+    background-image: url("Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.chair{
+    background-image: url("Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.topics{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.see{
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.see a{
+    text-decoration: none;
+    color: #007185;
+}
+.see a:hover{
+    color: #ff9900;
+}
+.pc{
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg");
+    background-size: cover;
+    width: 272px;
+    height: 304px;
+    margin-left: 20px;
+}
+.toy{
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
+    background-size: cover;
+    width: 272px;
+    height: 304px;
+    margin-left: 20px;
+}
+.dining{
+    background-image: url("Dining.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.home{
+    background-image: url("DesktopQuadCat_186x116_home_.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.kitchen{
+    background-image: url("DesktopQuadCat_186x116_kitchen_.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.beauty{
+    background-image: url("DesktopQuadCat_186x116_health-beauty_.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.dresses{
+    background-image: url("Dress.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.knits{
+    background-image: url("Knits.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.jackets{
+    background-image: url("Jackets.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.jwellery{
+    background-image: url("Jwellery.jpg") ;
+    background-size: cover;
+    height: 142px;
+    width: 156px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.beauty-steals{
+    background-image: url("baeuty-steals.jpg");
+    background-size: cover;
+    width: 272px;
+    height: 304px;
+    margin-left: 20px;
+}
+.home-decor{
+    background-image: url("home-decor.jpg");
+    background-size: cover;
+    width: 272px;
+    height: 304px;
+    margin-left: 20px;
+}
+.newyear{
+    background-image: url("newyear.jpg");
+    background-size: cover;
+    width: 272px;
+    height: 304px;
+    margin-left: 20px;
+}
+.foot-1{
+    background-color: #232f3e;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 115px;
+    padding-right: 90px;
+}
+.foot{
+    margin-top: 50px;
+
+}
+.foot-2{
+    background-color: #131a22;
+    height: 200px;
+}
+h4{
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+ul a{
+    display: block;
+    color: #e7ecea;
+    font-size: 0.85rem;
+    text-decoration: none;
+    padding-top: 12px;
+}
